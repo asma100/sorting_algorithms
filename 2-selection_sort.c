@@ -27,7 +27,7 @@ min = array[j];
 index = j;
 }
 }
-if (i != index)
+if (min != array[i])
 {
 temp = array[i];
 array[i] = array[index];
