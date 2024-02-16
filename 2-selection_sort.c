@@ -25,12 +25,12 @@ min = array[j];
 index = j;
 }
 }
-/*if (i != index)
-  {*/
+if (i != index)
+{
 temp = array[i];
 array[i] = array[index];
 array[index] = temp;
 print_array(array, size);
-/*}*/
+}
 }
 }
