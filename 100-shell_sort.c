@@ -43,6 +43,8 @@ void shell_sort(int *array, size_t size)
 {
 	int i, j;
 
+	if (!array)
+		return;
 	for (i = 0; i <= (int)size; i = i * 3 + 1)
 		;
 	i = (i - 1) / 3;
