@@ -25,9 +25,7 @@ void sort_swap(listint_t **list, listint_t *node)
 		node->prev = temp;
 		print_list(*list);
 		if (node->prev != NULL)
-		{
 			sort_swap(list, node);
-		}
 	}
 }
 
@@ -42,7 +40,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *temp = (*list)->next;
 
-	if (!list || !(*list) || (!(*list)->next && !(*list)->prev))
+	if (!list)
 		return;
 	while (temp)
 	{
