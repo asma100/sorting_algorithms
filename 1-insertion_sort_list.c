@@ -2,9 +2,9 @@
 
 /**
  * sort_swap - rearranges elements to their propper position
- * 
+ *
  * @list: list to be printed
- * @node: element to be sorted 
+ * @node: element to be sorted
 */
 void sort_swap(listint_t **list, listint_t *node)
 {
@@ -34,7 +34,7 @@ void sort_swap(listint_t **list, listint_t *node)
 /**
  * insertion_sort_list - sorts a doubly linked list of integers in
  * ascending order using the Insertion sort algorithm
- * 
+ *
  * @list: list to be sorted
 */
 
