@@ -38,10 +38,11 @@ void sort_swap(listint_t **list, listint_t *node)
 
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *temp = (*list)->next;
+	listint_t *temp;
 
-	if (!list)
+	if (!list || !(*list) || (!(*list)->next && !(*list)->prev))
 		return;
+	temp = (*list)->next;
 	while (temp)
 	{
 		sort_swap(list, temp);
