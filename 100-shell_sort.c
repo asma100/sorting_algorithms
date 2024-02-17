@@ -52,7 +52,7 @@ void shell_sort(int *array, size_t size)
 	{
 		for (j = 0; j < (int)size; j++)
 		{
-			if (j + i <= (int)size)
+			if (j + i < (int)size)
 			{
 				if (array[j] > array[j + i])
 				{
