@@ -31,6 +31,8 @@ size_t i, l;
 int max = array[0];
 int *coun_arr;
 int *cp_arr;
+if (!array || size < 2)
+return;
 for (i = 0; i < size; i++)
 {
 if (array[i] > max)
