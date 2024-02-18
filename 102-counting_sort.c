@@ -62,5 +62,5 @@ b = coun_arr[c];
 array[b - 1] = c;
 coun_arr[c]--;
 }
-(coun_arr); 
+free(coun_arr); 
 }
