@@ -4,6 +4,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define INCREMENT 1
+#define DECREMENT -1
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -25,6 +28,8 @@ void quick_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
 int *duplicate_array(int *original_array, int size);
 void counting_sort(int *array, size_t size);
+
 #endif /* SORT_H */
