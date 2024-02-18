@@ -1,3 +1,15 @@
+#include "sort.h"
+#include <stdlib.h>
+
+/**
+ * counting_sort - sorts an array of integers in ascending order
+ * using the Counting sort algorithm
+ * @array: Array to be sorted
+ * @size: size of the array
+ *
+ * Return: void
+ */
+
 void counting_sort(int *array, size_t size)
 {
 	int *count_arr, k;
