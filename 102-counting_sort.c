@@ -17,6 +17,8 @@ duplicate_array[i] = original_array[i];
 }
 return (duplicate_array);
 free(duplicate_array);
+
+
 }
 /**
  * counting_sort - type of sorting
@@ -49,7 +51,7 @@ coun_arr[k] = coun_arr[k] + 1;
 }
 }
 }
-for (x = 0; x < max + 1; x++)
+for (x = 1; x < max + 1; x++)
 {
 coun_arr[x] = coun_arr[x] + coun_arr[x - 1];
 }
