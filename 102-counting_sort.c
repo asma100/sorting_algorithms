@@ -46,9 +46,7 @@ for (k = 0; k < max + 1; k++)
 for (l = 0; l < size; l++)
 {
 if (k == array[l])
-{
 coun_arr[k] = coun_arr[k] + 1;
-}
 }
 }
 for (x = 0; x < max + 1; x++)
@@ -67,5 +65,5 @@ for (i = 0; i < size; i++)
 array[i] = cp_arr[i];
 }
 free(cp_arr);
-free(coun_arr); 
+free(coun_arr);
 }
