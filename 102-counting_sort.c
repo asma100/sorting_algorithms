@@ -55,6 +55,12 @@ coun_arr[x + 1] += coun_arr[x];
 }
 print_array(coun_arr, max + 1);
 cp_arr = malloc(sizeof(int) * size);
+ if (cp_arr == NULL)
+    {
+        free(cp_arr);
+        free(coun_arr);
+        return;
+    }
 for (y = size - 1; y >= 0; y--)
 {
 coun_arr[array[y]]--;
