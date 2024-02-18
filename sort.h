@@ -28,11 +28,8 @@ void quick_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
-<<<<<<< HEAD
 void cocktail_sort_list(listint_t **list);
-
-=======
 int *duplicate_array(int *original_array, int size);
 void counting_sort(int *array, size_t size);
->>>>>>> c9e855601ead3eb7a72860cf940f1bc53faeea03
+
 #endif /* SORT_H */
